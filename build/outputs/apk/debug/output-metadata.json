@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.apptest.kenneth",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 22,
+      "versionName": "22",
+      "outputFile": "Sample_Application_Android-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

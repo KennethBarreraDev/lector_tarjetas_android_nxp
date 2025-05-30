@@ -1,0 +1,287 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apptest.kenneth"
+4    android:versionCode="22"
+5    android:versionName="22" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-feature
+11-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:6:5-80
+12        android:name="android.hardware.nfc"
+12-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:6:19-54
+13        android:required="true" />
+13-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:6:55-78
+14
+15    <uses-permission android:name="android.permission.NFC" />
+15-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:8:5-61
+15-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:8:22-59
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:9:5-80
+16-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:10:5-66
+17-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:10:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:11:5-78
+18-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:11:22-76
+19
+20    <uses-feature
+20-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:6:5-80
+21        android:name="android.hardware.nfc"
+21-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:6:19-54
+22        android:required="true" />
+22-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:6:55-78
+23
+24    <supports-screens
+24-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:17:5-23:39
+25        android:anyDensity="true"
+25-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:18:9-34
+26        android:largeScreens="true"
+26-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:19:9-36
+27        android:normalScreens="true"
+27-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:20:9-37
+28        android:resizeable="false"
+28-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:21:9-35
+29        android:smallScreens="true"
+29-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:22:9-36
+30        android:xlargeScreens="true" />
+30-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:23:9-37
+31
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:25:5-68
+32-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:25:22-65
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+33-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+33-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+34
+35    <application
+35-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:25:5-77:19
+36        android:name="androidx.multidex.MultiDexApplication"
+37        android:allowBackup="false"
+37-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:26:9-36
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\b277ee848236a6a5a8f4222cb95d8f36\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:description="@string/app_name"
+40-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:27:9-47
+41        android:extractNativeLibs="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:28:9-43
+43        android:label="@string/app_name"
+43-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:29:9-41
+44        android:logo="@mipmap/ic_launcher"
+44-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:30:9-43
+45        android:supportsRtl="true"
+45-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:22:9-35
+46        android:theme="@style/AppTheme" >
+46-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:31:9-40
+47        <uses-library
+47-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:33:9-89
+48            android:name="org.apache.http.legacy"
+48-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:33:23-61
+49            android:required="false" />
+49-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:33:62-87
+50
+51        <activity
+51-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:34:9-42:20
+52            android:name="com.apptest.kenneth.SplashActivity"
+52-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:35:13-62
+53            android:exported="true"
+53-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:37:13-36
+54            android:screenOrientation="portrait" >
+54-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:36:13-49
+55            <intent-filter>
+55-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:38:13-41:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:39:17-68
+56-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:39:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:40:17-76
+58-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:40:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:43:9-68:20
+62            android:name="com.apptest.kenneth.MainActivity"
+62-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:43:19-66
+63            android:exported="true"
+63-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:46:13-36
+64            android:label="@string/app_name"
+64-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:44:13-45
+65            android:screenOrientation="portrait" >
+65-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:45:13-49
+66
+67            <!-- TAG_DISCOVERED -->
+68            <intent-filter>
+68-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:49:13-52:29
+69                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+69-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:50:17-75
+69-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:50:25-73
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:51:17-75
+71-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:51:27-73
+72            </intent-filter>
+73
+74            <!-- TECH_DISCOVERED -->
+75            <intent-filter>
+75-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:55:13-58:29
+76                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+76-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:56:17-76
+76-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:56:25-74
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:51:17-75
+78-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:51:27-73
+79            </intent-filter>
+80
+81            <!-- NDEF_DISCOVERED -->
+82            <intent-filter>
+82-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:61:13-66:29
+83                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+83-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:62:17-76
+83-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:62:25-74
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:51:17-75
+85-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:51:27-73
+86                <!-- OJO: Se necesita mimeType o esquema -->
+87                <data android:mimeType="text/plain" />
+87-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:65:17-55
+87-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:65:23-52
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:70:9-75:20
+91            android:name="com.apptest.kenneth.WriteActivity"
+91-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:70:19-67
+92            android:parentActivityName="com.apptest.kenneth.MainActivity" >
+92-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:71:9-70
+93            <meta-data
+93-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:72:13-74:67
+94                android:name="android.support.PARENT_ACTIVITY"
+94-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:73:17-63
+95                android:value="com.apptest.kenneth.MainActivity" />
+95-->C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\src\main\AndroidManifest.xml:74:17-65
+96        </activity>
+97
+98        <receiver
+98-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:23:9-31:20
+99            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+99-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:24:13-78
+100            android:enabled="true"
+100-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:25:13-35
+101            android:exported="true" >
+101-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:26:13-36
+102            <intent-filter>
+102-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:28:13-30:29
+103                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+103-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:29:17-94
+103-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:29:25-91
+104            </intent-filter>
+105        </receiver>
+106
+107        <service
+107-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:33:9-37:48
+108            android:name="com.google.android.gms.analytics.AnalyticsService"
+108-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:34:13-77
+109            android:enabled="true"
+109-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:35:13-35
+110            android:exported="false" />
+110-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:36:13-37
+111        <!--
+112             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+113             installation campaign reporting
+114        -->
+115        <receiver
+115-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:43:9-49:20
+116            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+116-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:44:13-85
+117            android:exported="true" >
+117-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:45:13-36
+118            <intent-filter>
+118-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:46:13-48:29
+119                <action android:name="com.android.vending.INSTALL_REFERRER" />
+119-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:47:17-79
+119-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:47:25-76
+120            </intent-filter>
+121        </receiver>
+122
+123        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+123-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:51:9-92
+123-->[:nxpnfcandroidlib-release:] C:\Users\Desarrollo\.gradle\caches\transforms-3\1c73e0145ea2b2b04c290a23046f2d6f\transformed\jetified-nxpnfcandroidlib-release\AndroidManifest.xml:51:18-89
+124
+125        <receiver
+125-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+126            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+126-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+127            android:enabled="true"
+127-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+128            android:exported="false" >
+128-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+129        </receiver>
+130
+131        <service
+131-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+132            android:name="com.google.android.gms.measurement.AppMeasurementService"
+132-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+134            android:exported="false" />
+134-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+135        <service
+135-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+136            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+136-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+139            android:permission="android.permission.BIND_JOB_SERVICE" />
+139-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\0f889370a4033aa8e8ddbdbf85f19d31\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+140        <service
+140-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\048506bc6bcfea428f41ba6d68773b0b\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:27:9-33:19
+141            android:name="com.google.firebase.components.ComponentDiscoveryService"
+141-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\048506bc6bcfea428f41ba6d68773b0b\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:28:13-84
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\6ea0d87d73de95ca2811f0e6db851c7a\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+143            android:exported="false" >
+143-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\048506bc6bcfea428f41ba6d68773b0b\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:29:13-37
+144            <meta-data
+144-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\048506bc6bcfea428f41ba6d68773b0b\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+145                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+145-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\048506bc6bcfea428f41ba6d68773b0b\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\048506bc6bcfea428f41ba6d68773b0b\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Desarrollo\.gradle\caches\transforms-3\d2952261260dab119e8d4036d6294f8f\transformed\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+148                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+148-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Desarrollo\.gradle\caches\transforms-3\d2952261260dab119e8d4036d6294f8f\transformed\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Desarrollo\.gradle\caches\transforms-3\d2952261260dab119e8d4036d6294f8f\transformed\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+150        </service>
+151
+152        <provider
+152-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\6ea0d87d73de95ca2811f0e6db851c7a\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+153            android:name="com.google.firebase.provider.FirebaseInitProvider"
+153-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\6ea0d87d73de95ca2811f0e6db851c7a\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+154            android:authorities="com.apptest.kenneth.firebaseinitprovider"
+154-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\6ea0d87d73de95ca2811f0e6db851c7a\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+155            android:exported="false"
+155-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\6ea0d87d73de95ca2811f0e6db851c7a\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+156            android:initOrder="100" />
+156-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\6ea0d87d73de95ca2811f0e6db851c7a\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+157
+158        <meta-data
+158-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\cd3ee6b9a201ee0846855909ef4d61d0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+159            android:name="com.google.android.gms.version"
+159-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\cd3ee6b9a201ee0846855909ef4d61d0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+160            android:value="@integer/google_play_services_version" />
+160-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-3\cd3ee6b9a201ee0846855909ef4d61d0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+161    </application>
+162
+163</manifest>

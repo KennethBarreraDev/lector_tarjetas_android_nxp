@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apptest.kenneth.test" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="33" />
+
+    <instrumentation
+        android:name="com.android.test.runner.MultiDexTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.apptest.kenneth"
+        android:targetPackage="com.apptest.kenneth" />
+
+    <application
+        android:debuggable="true"
+        android:extractNativeLibs="true" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

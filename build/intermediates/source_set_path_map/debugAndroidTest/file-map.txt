@@ -1,0 +1,4 @@
+com.apptest.kenneth.test-androidTest-0 C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\build\generated\res\resValues\androidTest\debug
+com.apptest.kenneth.test-mergeDebugAndroidTestResources-1 C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.apptest.kenneth.test-mergeDebugAndroidTestResources-2 C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.apptest.kenneth.test-merged_res-3 C:\Git\app-nxp\Sample_Application_Android\Sample_Application_Android\build\intermediates\merged_res\debugAndroidTest
